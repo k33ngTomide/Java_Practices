@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lottery1 {
+public class Lottery {
 
 	public static void main(String... args){
 	
@@ -31,6 +31,7 @@ public class Lottery1 {
 				System.out.println("JACKPOT!!!,  you just won $3000.");
 			}
 		}
+		
 	}
 	
 	if (firstDigit == randomNumberOne || firstDigit == randomNumberTwo || firstDigit == randomNumberThree || secondDigit == randomNumberOne || secondDigit == randomNumberTwo || secondDigit == randomNumberThree || thirdDigit == randomNumberOne || thirdDigit == randomNumberTwo || thirdDigit == randomNumberThree){
